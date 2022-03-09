@@ -7,10 +7,14 @@ body{
     background-color: var(--Violet);
     background-image: url('../images/bg-mobile.svg');
     background-repeat: no-repeat;
+    
+   
+}
+main{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    
 }
 
 .container{
