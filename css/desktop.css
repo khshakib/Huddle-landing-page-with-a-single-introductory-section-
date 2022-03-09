@@ -1,0 +1,45 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+--Soft-Magenta: hsl(300, 69%, 71%);
+}
+body{
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat; 
+}
+.container{
+    width: 90%;
+}
+.content{
+
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.registration{
+    text-align: left;
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 19px;
+}
+.registration a{
+    padding:17px 65px;
+    font-size: 20px;
+    border-radius: 35px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+footer{
+    text-align: right;
+}
+
+/* hover */
+.registration a:hover{
+    background-color: var(--Soft-Magenta);
+    color: white;
+}
+.fab:hover{
+            border-color: var(--Soft-Magenta);
+            color: var(--Soft-Magenta)
+}
